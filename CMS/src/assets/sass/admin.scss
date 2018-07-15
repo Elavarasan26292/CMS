@@ -1,0 +1,70 @@
+.adminpage{
+  background-color: #fafafa;
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 1%;
+  height: 95vh;
+  border-radius: 10px;
+  .header{
+    p{
+      font-family: "Copperplate Gothic Light";
+      font-size: 32px;
+      padding: 35px;
+    }
+  }
+  .container1{
+    text-align: right;
+    .fa-medrt{
+    font-size: 32px;
+    padding-right: 5px;
+    color: #12b886;
+    cursor: pointer;
+  }
+  span{
+    font-size: 28px;
+    cursor: pointer;
+  }
+  }
+  .container2{
+    .avail{
+    font-family: "Copperplate Gothic Light";
+    text-align: center;
+    font-size: 22px;
+    }
+.contents{
+  font-family: "Copperplate Gothic Light";
+  padding-top: 1%;
+  overflow-y: scroll;
+  height: 65vh;
+  table{
+    width: 100%;
+    th{
+      background-color: #ddd;
+      padding: 10px 20px;
+      font-size: 19px;
+    }
+    td{
+        font-family: "Times new Roman";
+      padding: 10px 20px;
+        font-size: 18px;
+        .fa-edit{
+          color: #12b886;
+        }
+        .fa-times-circle{
+          color: red;
+        }
+        .pointers{
+            cursor: pointer;
+            color: #1A73E8;
+            font-size: 22px;
+        }
+        .pointers1{
+            cursor: pointer;
+            color: #F48024;
+            font-size: 22px;
+        }
+    }
+  }
+}
+  }
+}

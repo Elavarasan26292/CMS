@@ -1,0 +1,27 @@
+<div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 loginpage">
+<div class="col-lg-7 col-xl-7 col-md-7 col-sm-7 projecttitle">
+<p>Design the Page what you need by your own......</p>
+</div>
+<div class="col-lg-5 col-xl-5 col-md-5 col-sm-5 logincontainer">
+  <div class="contents">
+<center><img class="design" src="./assets/images/design.jpg"></img></center>
+<div class="form-group">
+  <label>User Name:</label>
+  <input type="text" ng-model="user.username" class="form-control" id="usr">
+</div>
+<div class="form-group">
+  <label>Password:</label>
+  <input type="password" ng-model="user.pwd" class="form-control" id="pwd">
+</div>
+  <label><input type="checkbox" ng-model="user.admin" class="checks">&nbsp;Login as Administrator..</label>
+  <div class="errs">
+<p ng-show="nulls">Please Enter Username and Password...</p>
+<p ng-show="invld">UserName or password is invalid...</p>
+  </div>
+  <div>
+   <center><button type="submit" ng-click="login()" class="btn btn-default">Login</button></center>
+ </div>
+  </div>
+</div>
+</div>
+</div>

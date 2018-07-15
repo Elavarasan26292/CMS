@@ -1,0 +1,36 @@
+.loginpage{
+  .projecttitle{
+    font-size: 60px;
+    margin-top: 26%;
+    p{
+      color: #fafafa;
+    }
+  }
+.logincontainer{
+  background-color: #fafafa;
+  margin-top: 1%;
+  border-radius: 8px;
+  .contents{
+    height: 96vh;
+    padding-top: 30%;
+}
+  label{
+    font-size: 18px;
+  }
+  .design{
+    width: 100px;
+  }
+  .checks{
+    width: 20px;
+    height: 15px;
+  }
+  .btn-default{
+    font-size: 18px;
+  }
+  .errs{
+    p{
+      color: red;
+    }
+  }
+}
+}

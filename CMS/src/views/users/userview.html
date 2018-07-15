@@ -1,0 +1,28 @@
+<div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 userviews">
+<header class="col-lg-12 col-xl-12 col-md-12 col-sm-12">
+{{pagedata.webtitle}}
+</header>
+<div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 container1">
+<div class="col-lg-2 col-xl-2 col-md-2 col-sm-2 sidemenu">
+<div ng-repeat="dt in pagedata.contents" class="contents">
+<p ng-click="changecont($index)">{{dt.subtitle}}</p>
+</div>
+<span class="contents" ng-click="owners()">
+  <p>Contact Us</p></span>
+</div>
+<div class="col-lg-10 col-xl-10 col-md-10 col-sm-10 datacontent">
+<div class="subhead">
+{{subtitles}}
+</div>
+<div class="datas">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{descriptionss}}
+</div>
+</div>
+</div>
+<span class="navtool" ng-click="back()">
+  Go Back
+</span>
+<footer class="col-lg-12 col-xl-12 col-md-12 col-sm-12">
+{{pagedata.footer}}
+</footer>
+</div>

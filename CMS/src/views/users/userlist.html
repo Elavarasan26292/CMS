@@ -1,0 +1,55 @@
+<div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 adminpage">
+<div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 header">
+<center>
+  <p>
+    View the Page, Give a thumbs up if you like the content...
+  </p></center>
+</div>
+<div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 container1">
+</div>
+<div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 container2">
+<span class="col-lg-12 col-xl-12 col-md-12 col-sm-12 avail">
+  Available Pages
+</span>
+<div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 contents">
+  <table>
+      <thead>
+      <tr>
+  <th>SL.No</th>
+  <th>Site Name</th>
+  <th>Owner</th>
+  <th>Likes</th>
+  <th></th>
+  <th></th>
+  </tr>
+</thead>
+<tbody>
+<tr ng-repeat="list in listdata">
+  <td>{{$index+1}}</td>
+  <td>
+  <span ng-bind="list.webtitle"></span>
+</td>
+<td>
+<span ng-bind="list.owner"></span>
+</td>
+<td>{{list.likes}}</td>
+<td>
+  <span class="pointers" ng-click="likepage(list._id)">
+  <i class=" thumss fas fa-thumbs-up"></i><i>Like</i>
+</span>
+</td>
+<td>
+  <span class="pointers1" ng-click="viewpage(list._id)">
+<i class="far fa-eye"></i><i>View</i>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<span class="navtool" ng-click="logout()">
+  Logout
+</span>
+</div>

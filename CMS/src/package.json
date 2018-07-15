@@ -1,0 +1,26 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "myapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.2",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-inject": "^4.3.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-webserver": "^0.9.1",
+    "laravel-elixir": "^6.0.0-18",
+    "laravel-elixir-webpack-official": "latest",
+    "requirejs": "^2.3.5",
+    "textangular": "^1.5.16"
+  }
+}

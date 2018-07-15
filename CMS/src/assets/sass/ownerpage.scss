@@ -1,0 +1,25 @@
+.ownerpage{
+  background-color: #fafafa;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+  border-radius: 10px;
+  center{
+    font-size: 32px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #1A73E8;
+  }
+  .owncontainer{
+    .lbls{
+      text-align: right;
+      font-size: 20px;
+      padding-bottom: 5px;
+      color: #F48024;
+    }
+    .cntnts{
+      font-size: 20px;
+      padding-bottom: 5px;
+    }
+  }
+}

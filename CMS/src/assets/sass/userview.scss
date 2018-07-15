@@ -1,0 +1,43 @@
+.userviews{
+  background-color: #fafafa;
+width: 98%;
+margin-left: 1%;
+margin-top: 1%;
+border-radius: 10px;
+header{
+width: 100%;
+text-align: center;
+padding:3%;
+font-size: 36px;
+color: #d02552;
+}
+footer{
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 1%
+}
+.container1{
+  height: 68vh;
+  overflow-y: auto;
+.contents{
+  border-right: 1px solid;
+  p{
+    color: mediumblue;
+    font-size: 18px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow:ellipsis;
+  }
+}
+.datacontent{
+.subhead{
+font-size: 28px;
+color: #63AA9C;
+}
+.datas{
+font-size: 18px;
+color: #763A7A;
+}
+}
+}
+}

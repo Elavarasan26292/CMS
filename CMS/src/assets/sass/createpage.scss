@@ -1,0 +1,48 @@
+.createpage{
+background-color: #fafafa;
+width: 98%;
+margin-left: 1%;
+margin-top: 1%;
+border-radius: 10px;
+.headcontent{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 28px;
+  color: #1A73E8;
+}
+.row{
+  padding-top: 1%;
+    padding-bottom: 1%;
+}
+.lbl{
+    float: left;
+    font-size: 22px;
+    padding-right: 28px;
+}
+.inpsize{
+  // width: 70%;
+}
+.Container2{
+  padding-bottom: 10px;
+}
+.addicn{
+    text-align: right;
+  .fa-plus-circle{
+    font-size: 32px;
+    cursor: pointer;
+    color: #12b886;
+  }
+}
+.fa-trash-alt{
+  font-size: 32px;
+  cursor: pointer;
+  color: red;
+}
+.lstsub{
+  padding-bottom: 1%;
+}
+.subcontroll{
+  height: 40vh;
+  overflow-y: scroll;
+}
+}
